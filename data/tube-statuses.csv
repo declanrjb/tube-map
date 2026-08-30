@@ -1,0 +1,22 @@
+$type,modeName,severityLevel,description
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,0,Special Service
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,1,Closed
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,2,Suspended
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,3,Part Suspended
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,4,Planned Closure
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,5,Part Closure
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,6,Severe Delays
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,7,Reduced Service
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,8,Bus Service
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,9,Minor Delays
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,10,Good Service
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,11,Part Closed
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,12,Exit Only
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,13,No Step Free Access
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,14,Change of frequency
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,15,Diverted
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,16,Not Running
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,17,Issues Reported
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,18,No Issues
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,19,Information
+"Tfl.Api.Presentation.Entities.StatusSeverity, Tfl.Api.Presentation.Entities",tube,20,Service Closed
