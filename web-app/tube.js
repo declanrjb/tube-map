@@ -28,12 +28,12 @@ $(document).ready(function(){
         '#b50000'
     ]
 
-    var severityRemap = {'Special Service': 4,
-                    'Closed': 5,
-                    'Suspended': 5,
-                    'Part Suspended': 4,
-                    'Planned Closure': 5,
-                    'Part Closure': 4,
+    var severityRemap = {'Special Service': 3,
+                    'Closed': 4,
+                    'Suspended': 4,
+                    'Part Suspended': 3,
+                    'Planned Closure': 4,
+                    'Part Closure': 3,
                     'Severe Delays': 3,
                     'Reduced Service': 2,
                     'Bus Service': 2,
@@ -44,11 +44,11 @@ $(document).ready(function(){
                     'No Step Free Access': 0,
                     'Change of frequency': 0,
                     'Diverted': 3,
-                    'Not Running': 5,
+                    'Not Running': 4,
                     'Issues Reported': 2,
                     'No Issues': 0,
                     'Information': 0,
-                    'Service Closed': 5}
+                    'Service Closed': 4}
 
     const map = new mapboxgl.Map({
         // TO MAKE THE MAP APPEAR YOU MUST
@@ -142,6 +142,11 @@ $(document).ready(function(){
                     animator = makeAnimator(lineName, 40 + (severity * 10))
                     animator(0);
 
+                    if (severity > 0) {
+                        var tubeStatus = $('<div class="tube-status"></div>').appendTo($('#tube-statuses'))
+                        var tubeSwatch = $('<div class="swatch" style="background-color: ' + severityColorRamp[severity] + ';">' + severity + '</div>').appendTo(tubeStatus)
+                        var tubeName = $('<div class="line-name">' + lineName + '</div>').appendTo(tubeStatus)
+                    }
                 })
             })
         })

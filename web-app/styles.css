@@ -133,3 +133,46 @@ a, a:hover, a:visited {
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
     touch-action: unset;
 }
+
+.popup {
+    position: absolute;
+    width: 100%;
+}
+
+#tube-statuses {
+    right: 10px;
+    top: 0px;
+}
+
+.tube-status {
+    width: fit-content;
+    float: right;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 5px #666;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.swatch {
+    width: 25px;
+    height: 25px;
+    float: right;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 6px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.line-name {
+    margin-top: 5px;
+    float: right;
+}
