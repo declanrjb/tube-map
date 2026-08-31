@@ -62,7 +62,7 @@ $(document).ready(function(){
         config: {
                 basemap: {
                     theme: 'monochrome',
-                    // lightPreset: 'night'
+                    lightPreset: 'night'
                 }
         }
 
