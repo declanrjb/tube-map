@@ -118,6 +118,7 @@ $(document).ready(function(){
                     var severityDesc = status['lineStatuses'][0]['statusSeverityDescription'];
                     console.log(severityDesc);
                     var severity = severityRemap[severityDesc];
+                    console.log(severityDesc)
                     var lineName = status['name']
                     var line = lines[lineName]
 
@@ -144,8 +145,9 @@ $(document).ready(function(){
 
                     if (severity > 0) {
                         var tubeStatus = $('<div class="tube-status"></div>').appendTo($('#tube-statuses'))
-                        var tubeSwatch = $('<div class="swatch" style="background-color: ' + severityColorRamp[severity] + ';">' + severity + '</div>').appendTo(tubeStatus)
+                        // var tubeSwatch = $('<div class="swatch" style="background-color: ' + severityColorRamp[severity] + ';">' + severity + '</div>').appendTo(tubeStatus)
                         var tubeName = $('<div class="line-name">' + lineName + '</div>').appendTo(tubeStatus)
+                        var statusDescObj = $('<div class="status-desc"' + 'style="background-color: ' + severityColorRamp[severity] + ';">' + severityDesc + '</div>').appendTo(tubeStatus)
                     }
                 })
             })
