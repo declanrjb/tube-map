@@ -1,1 +1,1 @@
-Visualization of the London tube showing train delays with an ant path effect
+This map tracks disruptions and delays on the London Underground using live data from the Transport For London (TFL) API. On-time trains are indicated with blue tones and fast antpaths. Delayed or cancelled trains are indicated with red tones and and crawling ant paths.
