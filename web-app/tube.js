@@ -153,45 +153,13 @@ $(document).ready(function(){
             })
         })
 
-        $.getJSON( "data/lines.json", function( data ) {
-
-            // $.each( data, function( i, line ) {
-            //     var lineName = line['lineName']
-            //     // var segmentName = segment['properties']['id'];
-
-            //     map.addSource(lineName, {
-            //         'type': 'geojson',
-            //         'data': line['geometry']
-            //     });
-            //     // console.log(segment)
-
-            //     map.addLayer({
-            //         type: 'line',
-            //         source: lineName,
-            //         id: lineName,
-            //         paint: {
-            //             'line-color': lineColors[lineName],
-            //             'line-width': 6,
-            //             'line-dasharray': [0, 4, 3],
-            //             'line-emissive-strength': 1
-            //         }
-            //     });
-
-            //     animator = makeAnimator(lineName, 40)
-            //     animator(0);
-
-            // });
-        });
-
-
-
-            // add a line layer with line-dasharray set to the first value in dashArraySequence
-
-
-            // technique based on https://jsfiddle.net/2mws8y3q/
-            // an array of valid line-dasharray values, specifying the lengths of the alternating dashes and gaps that form the dash pattern
-
-
+        $('.info-box').on('click', function() {
+            if ($(this).attr('active') == 'false') {
+                $(this).attr('active', 'true')
+            } else {
+                $(this).attr('active', 'false')
+            }
+        })
 
         });
 
